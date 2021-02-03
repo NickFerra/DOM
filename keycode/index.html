@@ -7,19 +7,28 @@
 </head>
 <body>
 
+
 <div class="display">
+    
 <!-- This is for the table button at top right -->
-    <table class="table1">
-        <thead>
+    <div>
+    <table id="tab">
+        <thead id="tabHead">
             <tr>
                 <th>Key Code</th>
                 <th>Key</th>
             </tr>
         </thead>
-        <tbody class="tabBody">
-
+        <tbody id="tabBody">
+            <tr>
+                <td>test</td>
+            </tr>
         </tbody>
     </table>
+
+    <button id="tableToggle">Table</button>
+    </div>
+    
 
 <!-- This is for the big number in middle of screen -->
     <div class="text-display">
@@ -66,7 +75,7 @@
     </div>
 </div>
 
-<button class="tableToggle">Table</button>
+
 
 <script src="app.js"></script>
 
