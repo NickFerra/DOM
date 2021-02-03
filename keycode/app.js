@@ -5,10 +5,10 @@ showhidebtn.addEventListener("click", () => {
 
     if(table.style.display == "none") {
         table.style.display = "block";
-        showhidebtn.textContent = "Table";
+        showhidebtn.textContent = "back";
     }
     else {
         table.style.display = "none";
-        showhidebtn.textContent = "Back";
+        showhidebtn.textContent = "table";
     }
 });
