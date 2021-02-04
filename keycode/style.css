@@ -14,4 +14,17 @@ body{
     font-size: 2em;
     text-align: center;
    padding-top: 250px;
+   font-weight: bold;
+}
+
+.box{
+    text-align: center;
+    padding-left: 350px;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#text-key, #text-code, #text-which{
+    margin-top: 10px;
 }

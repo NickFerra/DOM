@@ -35,4 +35,5 @@ document.addEventListener("keydown", (event) =>{
         textWhich.textContent = (event.which);
 
         text.textContent = (event.which);
+        text.style.fontSize = "6em";
 });
