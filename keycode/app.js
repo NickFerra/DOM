@@ -24,14 +24,15 @@ showHideBtn.addEventListener("click", () => {
 //adding keydown event
 document.addEventListener("keydown", (event) =>{
     
-        events1.style.display = "block";
+        events1.style.display = "inline-block";
         textKey.textContent = (event.key);
 
-        events2.style.display = "block";
+
+        events2.style.display = "inline-block";
         textCode.textContent = (event.code); 
 
-        events3.style.display = "block";
+        events3.style.display = "inline-block";
         textWhich.textContent = (event.which);
-    
-   
+
+        text.textContent = (event.which);
 });
