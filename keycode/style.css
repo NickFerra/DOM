@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom left, rgb(156, 70, 156), rgb(61, 162, 245)) fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+#text-display{
+    font-size: 2em;
+    text-align: center;
+   padding-top: 250px;
+}
