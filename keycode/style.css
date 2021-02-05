@@ -23,6 +23,8 @@ body{
     margin-top: 50px;
     font-size: 1.5em;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
 }
 
 #text-key, #text-code, #text-which{
